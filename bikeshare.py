@@ -170,7 +170,7 @@ def station_stats(df):
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration.
-
+    
     Args:
         df - DataFrame from load_data function filtered by month, city and day
 
@@ -197,7 +197,19 @@ def trip_duration_stats(df):
 
 
 def user_stats(city, df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users.
+
+    Args:
+        df - DataFrame from load_data function filtered by month, city and day
+
+    Returns:
+        Statistics about:
+            1. The Earliest Year of Birth
+            2. The Most Recent Year of Birth
+            3. The Most Common Year of Birth
+
+    
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
