@@ -84,7 +84,17 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times of travel.
+
+    Args:
+        df - DataFrame from load_data function filtered by month, city and day
+
+    Returns:
+        Statistics about:
+            1. Most Frequent Month
+            2. Most Frequent Day of Week
+            3. Most Frequent Starting Hour
+    """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -124,7 +134,18 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays statistics on the most popular stations and trip.
+
+    Args:
+        df - DataFrame from load_data function filtered by month, city and day
+
+    Returns:
+        Statistics about:
+            1. Most Frequent Start Station
+            2. Most Frequent End Station
+            3. Most Frequent Combined Station
+
+    """
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -148,7 +169,17 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Displays statistics on the total and average trip duration.
+    
+    Args:
+        df - DataFrame from load_data function filtered by month, city and day
+
+    Returns:
+        Statistics about:
+            1. Total Travel Time
+            2. Average Travel Time
+    
+    """
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -166,7 +197,19 @@ def trip_duration_stats(df):
 
 
 def user_stats(city, df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users.
+
+    Args:
+        df - DataFrame from load_data function filtered by month, city and day
+
+    Returns:
+        Statistics about:
+            1. The Earliest Year of Birth
+            2. The Most Recent Year of Birth
+            3. The Most Common Year of Birth
+
+    
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
