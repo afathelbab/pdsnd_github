@@ -17,5 +17,8 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Resources helped me to complete the project:
+
+1. pandas: powerful Python data analysis toolkit (BOOK)
+2. StackOverFlow (WEBSITE)
 
