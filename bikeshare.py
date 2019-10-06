@@ -134,7 +134,18 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays statistics on the most popular stations and trip.
+
+    Args:
+        df - DataFrame from load_data function filtered by month, city and day
+
+    Returns:
+        Statistics about:
+            1. Most Frequent Start Station
+            2. Most Frequent End Station
+            3. Most Frequent Combined Station
+
+    """
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
