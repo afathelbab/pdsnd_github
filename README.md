@@ -19,6 +19,10 @@ washington.csv
 ### Programming Languages used
 Python 3.7
 
+### Libraries used
+pandas
+time
+
 ### Credits
 Resources helped me to complete the project:
 
