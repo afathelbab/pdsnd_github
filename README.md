@@ -16,6 +16,9 @@ chicago.csv
 new_york_city.csv  
 washington.csv
 
+### Programming Languages used
+Python 3.7
+
 ### Credits
 Resources helped me to complete the project:
 
